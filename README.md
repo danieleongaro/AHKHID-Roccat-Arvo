@@ -5,7 +5,8 @@
 ## How to use it
 - Install Autohotkey
 - Place the file `media.ahk` in the same folder as `AHKHID.ahk`
-- Edit the file `media.ahk` in the lines with `Send` in order to set the behaviour of the macro keys
+- Edit the file `media.ahk` in the lines with `Send` in order to set the behaviour of the macro keys (right click -> edit)
+- Run the file (double click)
 ## Info
 The data value you see in `example2.ahk` are in hexadecimal format but in the script I used decimal, so they differ. There is a msgbox you can uncomment to see the decimal value of data when you press the key.
 ## Other examples on which i based my code:
