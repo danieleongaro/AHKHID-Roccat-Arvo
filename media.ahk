@@ -53,12 +53,20 @@ InputMsg(wParam, lParam) {
 
 	;macro nr4
 	If (iKey == 7341057){
-	;Send {Media_Play_Pause}
+	;Send {Media_Play_Pause} ;potrei mettere email
 	}
 
 	;macro nr5
 	If (iKey == 7341313){
-	;Send {Media_Play_Pause}
+	;Send ^!{xz} ;ctrl alt z e x
+	;SetTitleMatchMode, 2
+	;ControlFocus,, Discord
+	;Sleep, 1
+	;Send ^+m
+	;ControlSend,, {^+m}, Discord
+	;ufficiale ctrl shift m == ^+m
+	;mia custom ctrl alt x z == ^!xz
+	;Return
 	}
 	
     }
